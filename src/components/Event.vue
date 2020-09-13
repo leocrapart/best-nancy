@@ -10,12 +10,14 @@
 </template>
 
 <script>
+import { ref } from 'vue'
 export default {  
   name: "Event",
-  props: [
-    "title",
-    "text",
-    "image"
-  ]
+  props: {
+    title: String,
+    text: String,
+    image: String
+  },
+
 }
 </script>
